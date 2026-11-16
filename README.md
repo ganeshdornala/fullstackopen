@@ -22,6 +22,12 @@ Exercise submissions and projects completed while studying the
 | 1.6-1.11 | [Unicafe](./part1/unicafe/) | State, event handlers, conditional rendering, and statistics |
 | 1.12-1.14 | [Anecdotes](./part1/anecdotes/) | State, arrays, event handling, and rendering computed data |
 
+## Part 2: Rendering a collection and modules
+
+| Exercises | Application | Concepts |
+|---|---|---|
+| 2.1-2.5 | [Courseinfo](./part2/courseinfo/) | Rendering collections with map, keys, reduce, and separate modules |
+
 ---
 
 This repository is maintained as part of my learning journey through Full Stack Open.
