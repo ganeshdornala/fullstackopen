@@ -14,6 +14,8 @@ A phonebook application built with React as part of the University of Helsinki F
 - **2.13:** Separate backend communication into a service module.
 - **2.14:** Delete contacts using DELETE requests.
 - **2.15:** Update existing contacts using PUT requests.
+- **2.16:** Display temporary success notifications after adding or updating contacts.
+- **2.17:** Handle failed requests and display error notifications.
 
 ## Concepts Practiced
 
@@ -27,6 +29,9 @@ A phonebook application built with React as part of the University of Helsinki F
 - REST API integration
 - JSON Server as a mock REST API
 - Separating API communication from UI components
+- Conditional success and error notifications
+- Timed notifications using `setTimeout` and `clearTimeout`
+- Promise error handling using `.catch()`
 
 ## Run Locally
 

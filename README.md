@@ -27,7 +27,7 @@ Exercise submissions and projects completed while studying the [University of He
 |---|---|---|
 | 2.1–2.5 | [Courseinfo](./part2/courseinfo/) | Rendering collections with map, keys, reduce, and separate modules |
 | 2.6–2.10 | [Phonebook](./part2/phonebook/) | Controlled inputs, forms, array methods, filtering, and component composition |
-| 2.11–2.15 | [Phonebook](./part2/phonebook/) | Axios, useEffect, REST APIs, CRUD operations, and service modules |
+| 2.11–2.17 | [Phonebook](./part2/phonebook/) | Axios, useEffect, REST APIs, CRUD operations, service modules, notifications, and error handling |
 
 ---
 
