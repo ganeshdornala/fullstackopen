@@ -1,0 +1,57 @@
+### Get all persons
+GET http://localhost:3001/api/persons
+
+### Delete person with ID 2
+DELETE http://localhost:3001/api/persons/2
+
+### Verify deletion
+GET http://localhost:3001/api/persons
+
+### Delete non-existing person
+DELETE http://localhost:3001/api/persons/99
+
+### Add a new person
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Ganesh Dornala",
+  "number": "9876543210"
+}
+
+### Verify new person
+GET http://localhost:3001/api/persons
+
+### Valid person
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Rahul",
+  "number": "9876543210"
+}
+
+### Missing name
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "number": "9876543210"
+}
+
+### Missing number
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Kiran"
+}
+
+### Duplicate name
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Rahul",
+  "number": "1234567890"
+}
