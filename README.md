@@ -30,6 +30,12 @@ Exercise submissions and projects completed while studying the [University of He
 | 2.11–2.17 | [Phonebook](./part2/phonebook/) | Axios, useEffect, REST APIs, CRUD operations, service modules, notifications, and error handling |
 | 2.18–2.20 | [Countries](./part2/countries/) | Country search, country details, and capital weather using REST APIs |
 
+## Part 3: Programming a server with NodeJS and Express
+
+| Exercises | Application | Concepts |
+|---|---|---|
+| 3.1–3.6 | [Phonebook Backend](./part3/phonebook/) | Node.js, Express, REST APIs, HTTP GET/POST/DELETE requests, middleware, dynamic routes, and error handling |
+
 ---
 
 This repository is maintained as part of my learning journey through Full Stack Open.
